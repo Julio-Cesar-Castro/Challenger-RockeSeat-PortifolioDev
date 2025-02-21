@@ -25,11 +25,12 @@
   border-radius: 12px;
   width: 330px;
   height: 280px;
-  
-  &:hover{
-    border: solid 1px var(--gray-400);
+
+  &:hover {
+    outline: solid 2px var(--gray-400);
+    cursor: grab;
   }
- 
+
   img {
     width: 306px;
     height: 156px;
@@ -39,15 +40,15 @@
   }
 }
 
-.projectCard figcaption{
+.projectCard figcaption {
   margin-top: 20px;
 
-  h2{
-    font: var(--title-sm)
+  h2 {
+    font: var(--title-sm);
   }
-  
-  p{
+
+  p {
     margin-top: 8px;
-    font:var(--text-sm)
+    font: var(--text-sm);
   }
 }
