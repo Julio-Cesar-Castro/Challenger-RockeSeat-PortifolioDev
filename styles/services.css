@@ -1,0 +1,31 @@
+#service {
+  height: 480px;
+  align-items: center;
+  background-color: var(--gray-100);
+}
+.cardService {
+  margin-top: 56px;
+  width: 280px;
+  height: 155px;
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 20px;
+
+  img {
+    width: 48px;
+    height: 48px;
+  }
+
+  h2 {
+    margin-top: 20px;
+    font: var(--title-sm);
+    color: var(--gray-600)
+  }
+
+  p{
+    margin-top: 8px;
+    font: var(--text-sm);
+    color: var(--gray-500)
+  }
+
+}
