@@ -1,0 +1,83 @@
+#contact {
+  background-image: url(../assets/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+
+  > span {
+    font: var(--subtitle);
+    color: var(--purple)
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-600);
+  }
+
+  p {
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+}
+
+.containerContact {
+  margin-top: 48px;
+}
+
+.contactCard {
+  width: 400px;
+  height: 68px;
+  border-radius: 8px;
+  background-color: var(--gray-300);
+  padding: 20px;
+  cursor: pointer;
+    
+  
+  &:hover {
+    outline: solid 1px var(--blue);
+
+    span {
+      color: var(--blue)
+    }
+
+    #arrow {
+      content: url(/assets/icon/ArrowUpRightHover.svg);
+    }
+
+    #linkedin{
+      content: url(/assets/icon/LinkedinLogoHover.svg);
+    }
+
+    #instagram{
+      content: url(/assets/icon/InstagramLogoHover.svg);
+    }
+
+    #github{
+      content: url(/assets/icon/GithubLogoHover.svg);
+    }
+
+    #envelope{
+      content: url(/assets/icon/EnvelopeSimpleHover.svg);
+    }
+
+  }
+
+  div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    span {
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+
+
+    span:hover{
+      color: var(--blue);   
+    }
+
+  }
+}

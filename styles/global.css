@@ -42,3 +42,7 @@ body {
   color: var(--gray-600);
   font: var(--text-md)
 }
+
+a {
+  text-decoration: none;
+}
