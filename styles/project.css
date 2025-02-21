@@ -1,0 +1,53 @@
+#project {
+  width: 1366px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: var(--gray-200);
+}
+
+#project > span {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+#project > p {
+  margin-top: 8px;
+  font: var(--title-md);
+}
+
+.projectContainer {
+  margin-top: 56px;
+}
+
+.projectCard {
+  background-color: var(--gray-300);
+  padding: 12px;
+  border-radius: 12px;
+  width: 330px;
+  height: 280px;
+  
+  &:hover{
+    border: solid 1px var(--gray-400);
+  }
+ 
+  img {
+    width: 306px;
+    height: 156px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+.projectCard figcaption{
+  margin-top: 20px;
+
+  h2{
+    font: var(--title-sm)
+  }
+  
+  p{
+    margin-top: 8px;
+    font:var(--text-sm)
+  }
+}

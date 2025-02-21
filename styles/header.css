@@ -1,0 +1,70 @@
+#presentation {
+  background-image: url(../assets/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  width: 1366px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.avatar {
+ border: 3px solid var(--red);
+ border-radius: 999px;
+ width: 112px;
+ height: 112px;
+ position: relative;
+
+ &::before{
+  content: "";
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  bottom: 0px;
+  left: 75px;
+  background-image: url(../assets/icon/Code.png);
+ }
+}
+
+.avatar img {
+  width: 87px;
+  height: 87px;
+  object-fit: cover;
+  border-radius: 999px;
+}
+
+header p {
+  margin-top: 56px;
+  font: var(--subtitle);
+
+  span{
+    font: inherit;
+    color: var(--red);
+  }
+}
+
+header h1 {
+  margin-top: 8px;
+  font: var(--title-lg)
+}
+
+header .description{
+  margin-top: 20px;
+  font: var(--text-sm);
+  color: var(--gray-400)
+}
+
+.containerTech {
+  margin-top: 80px;
+}
+
+.moveNext {
+  margin-top: 94px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

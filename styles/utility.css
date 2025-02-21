@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-col{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-8{
+  gap: 8px;
+}
+
+.gap-24{
+  gap: 24px;
+}
+
+.gap-32{
+  gap: 32px;
+}
+
+.box {
+  background-color: var(--gray-300);
+  padding: 8px 16px;
+  border-radius: 999px;
+}
